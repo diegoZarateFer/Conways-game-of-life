@@ -1,0 +1,42 @@
+.cell {
+  background-color: transparent;
+  height: 25px;
+  width: 25px;
+  margin: 0;
+}
+
+.cell-border {
+  border-right: 1px solid var(--cell-magin-color);
+  border-bottom: 1px solid var(--cell-magin-color);
+}
+
+.alive-slow {
+  animation: makeAlive 0.3s ease-out forwards;
+}
+
+.alive-medium {
+  animation: makeAlive 0.2s ease-out forwards;
+}
+
+.alive-fast {
+  animation: makeAlive 0.1s ease-out forwards;
+}
+
+.alive-faster {
+  animation: makeAlive 0.05s ease-out forwards;
+}
+
+@keyframes makeAlive {
+
+  0% {
+    transform: scale(.3);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}

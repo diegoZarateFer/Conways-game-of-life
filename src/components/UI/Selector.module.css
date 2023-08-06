@@ -1,0 +1,12 @@
+.selector {
+  margin: var(--margin-value);
+  font: inherit;
+  background: var(--footer-background-color);
+  border: 1px solid var(--ui-main-color);
+  height: 50px;
+  outline: none;
+  text-align: center;
+  color: var(--ui-main-color);
+  border-radius: 6px;
+}
+
