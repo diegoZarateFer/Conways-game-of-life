@@ -4,3 +4,4 @@
 [Here](https://diegozaratefer.github.io/Conways-game-of-life/) you can create different cell configurations and visualize their evolution in real time!
 
 It is recommended to use Google Chrome for a better experience!
+ ![image](https://github.com/diegoZarateFer/Conways-game-of-life/assets/99451650/9e35599f-3484-42fd-b737-b7faa84da4b6)
